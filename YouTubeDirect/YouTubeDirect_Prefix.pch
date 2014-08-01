@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'YoutubeDirect' target in the 'YoutubeDirect' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+// See GDataFramework.h for explanation.
+#define GDATA_REQUIRE_SERVICE_INCLUDES 1
+#define GDATA_INCLUDE_YOUTUBE_SERVICE 1
+#define GTM_INCLUDE_OAUTH2 1
