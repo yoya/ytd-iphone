@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B917DBA0198B6282009B101D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B917DB9F198B6282009B101D /* Default-568h@2x.png */; };
+		B917DBA2198B6297009B101D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B917DBA1198B6297009B101D /* Images.xcassets */; };
+		B921126F198D21030092DA4C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B921126C198D21030092DA4C /* SBJsonBase.m */; };
+		B9211270198D21030092DA4C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B921126D198D21030092DA4C /* SBJsonParser.m */; };
+		B9211271198D21030092DA4C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B921126E198D21030092DA4C /* SBJsonWriter.m */; };
 		FF28E60713EC15D6000BB304 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF28E60613EC15D6000BB304 /* MobileCoreServices.framework */; };
 		FF2AC975144FFD5D001BBF66 /* GTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC743144FFD5B001BBF66 /* GTMUIFont+LineHeight.m */; };
 		FF2ACF6A145000D4001BBF66 /* GDataACLKeyedRole.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2ACBDF145000D0001BBF66 /* GDataACLKeyedRole.m */; };
@@ -266,6 +271,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* YouTubeDirect_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeDirect_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* YouTubeDirect-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YouTubeDirect-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B917DB9F198B6282009B101D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B917DBA1198B6297009B101D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YouTubeDirect/Images.xcassets; sourceTree = "<group>"; };
+		B921126C198D21030092DA4C /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = opensource/GData/Source/JSON/SBJsonBase.m; sourceTree = "<group>"; };
+		B921126D198D21030092DA4C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = opensource/GData/Source/JSON/SBJsonParser.m; sourceTree = "<group>"; };
+		B921126E198D21030092DA4C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = opensource/GData/Source/JSON/SBJsonWriter.m; sourceTree = "<group>"; };
 		FF28E60613EC15D6000BB304 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FF2AC742144FFD5B001BBF66 /* GTMUIFont+LineHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIFont+LineHeight.h"; sourceTree = "<group>"; };
 		FF2AC743144FFD5B001BBF66 /* GTMUIFont+LineHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIFont+LineHeight.m"; sourceTree = "<group>"; };
@@ -645,6 +655,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				B921126C198D21030092DA4C /* SBJsonBase.m */,
+				B921126D198D21030092DA4C /* SBJsonParser.m */,
+				B921126E198D21030092DA4C /* SBJsonWriter.m */,
+				B917DB9F198B6282009B101D /* Default-568h@2x.png */,
 				FF2ACBDB145000D0001BBF66 /* GData Sources */,
 				FF431DC413E1700600C4B94B /* ThirdParty */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -668,6 +682,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B917DBA1198B6297009B101D /* Images.xcassets */,
 				FF55310213E27E6C0072B717 /* Images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* YouTubeDirect-Info.plist */,
@@ -1005,7 +1020,7 @@
 			isa = PBXGroup;
 			children = (
 				FF2AD159145000D5001BBF66 /* libGTMHTTPFetcher.a */,
-				FF2AD15B145000D5001BBF66 /* UnitTests.octest */,
+				FF2AD15B145000D5001BBF66 /* UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1098,7 +1113,7 @@
 			isa = PBXGroup;
 			children = (
 				FF2AD164145000D5001BBF66 /* libOAuthTouch2.a */,
-				FF2AD166145000D5001BBF66 /* libOAuthTouch2.a */,
+				FF2AD166145000D5001BBF66 /* libOAuthTouch2NG.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1283,8 +1298,17 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 6JFYA4C8L7;
+					};
+				};
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YouTubeDirect" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1376,10 +1400,10 @@
 			remoteRef = FF2AD158145000D5001BBF66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FF2AD15B145000D5001BBF66 /* UnitTests.octest */ = {
+		FF2AD15B145000D5001BBF66 /* UnitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = UnitTests.octest;
+			path = UnitTests.xctest;
 			remoteRef = FF2AD15A145000D5001BBF66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1390,10 +1414,10 @@
 			remoteRef = FF2AD163145000D5001BBF66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FF2AD166145000D5001BBF66 /* libOAuthTouch2.a */ = {
+		FF2AD166145000D5001BBF66 /* libOAuthTouch2NG.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libOAuthTouch2.a;
+			path = libOAuthTouch2NG.a;
 			remoteRef = FF2AD165145000D5001BBF66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1410,6 +1434,7 @@
 				FF55310913E27E6C0072B717 /* footer_button_press_bg.jpg in Resources */,
 				FF55310A13E27E6C0072B717 /* icon.png in Resources */,
 				FF897DD813EBCA87009DA37D /* assignment_options_bg.png in Resources */,
+				B917DBA0198B6282009B101D /* Default-568h@2x.png in Resources */,
 				FF897DD913EBCA87009DA37D /* assignment_options_press.png in Resources */,
 				FF897DDA13EBCA87009DA37D /* assignment_options_up_press.png in Resources */,
 				FF897DDB13EBCA87009DA37D /* assignment_options_up.png in Resources */,
@@ -1424,6 +1449,7 @@
 				FF5F2A231407BFEA0039013C /* gallery_blue.png in Resources */,
 				FF5F2A241407BFEA0039013C /* pause.png in Resources */,
 				FF5F2A251407BFEA0039013C /* resume.png in Resources */,
+				B917DBA2198B6297009B101D /* Images.xcassets in Resources */,
 				FF2AD0CE145000D4001BBF66 /* UnitTests-Info.plist in Resources */,
 				FF2AD0F2145000D4001BBF66 /* GTMOAuth2Framework-Info.plist in Resources */,
 				FF2AD0F3145000D4001BBF66 /* GTMOAuth2Window.xib in Resources */,
@@ -1451,6 +1477,7 @@
 				FF552EF913E279EB0072B717 /* AssignmentListCell.m in Sources */,
 				FF552EFA13E279EB0072B717 /* AssignmentListTabController.m in Sources */,
 				FF552EFB13E279EB0072B717 /* SplashViewController.m in Sources */,
+				B9211270198D21030092DA4C /* SBJsonParser.m in Sources */,
 				FF5530E013E27CE20072B717 /* AssignmentListController.m in Sources */,
 				FF55312713E2867D0072B717 /* YTDMainController.m in Sources */,
 				FF2D5B3D13E91D6000C50112 /* YouTubeDirectUIViewAdditions.m in Sources */,
@@ -1459,6 +1486,7 @@
 				FF3D208213F530840015CD70 /* YouTubeUploadHelper.m in Sources */,
 				FF322AB51423171800B39323 /* ConnectionRequestTicket.m in Sources */,
 				FF322B0D14235F9100B39323 /* YouTubeUploadTicket.m in Sources */,
+				B921126F198D21030092DA4C /* SBJsonBase.m in Sources */,
 				FF9EC6FF1429F43A001751BE /* UploadModel.m in Sources */,
 				FF2AC975144FFD5D001BBF66 /* GTMUIFont+LineHeight.m in Sources */,
 				FF2ACF6A145000D4001BBF66 /* GDataACLKeyedRole.m in Sources */,
@@ -1581,6 +1609,7 @@
 				FF2AD0F4145000D4001BBF66 /* GTMOAuth2WindowController.m in Sources */,
 				FF2AD0F6145000D4001BBF66 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				FF2AD13F145000D4001BBF66 /* GDataXMLNode.m in Sources */,
+				B9211271198D21030092DA4C /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1591,11 +1620,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Developer/Library/Frameworks/;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1614,11 +1647,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Developer/Library/Frameworks/;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YouTubeDirect_Prefix.pch;
 				INFOPLIST_FILE = "YouTubeDirect-Info.plist";
@@ -1635,12 +1672,14 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -1650,12 +1689,13 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
